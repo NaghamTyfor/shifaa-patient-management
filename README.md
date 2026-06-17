@@ -147,6 +147,4 @@ Special thanks to the open‑source community and the maintainers of Laravel, Re
 ---
 
 **⭐ If you like this project, please give it a star on GitHub!**
-```
 
----

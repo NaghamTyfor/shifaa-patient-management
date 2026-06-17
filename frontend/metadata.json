@@ -1,0 +1,6 @@
+{
+  "name": "Patients Dashboard Shifa",
+  "description": "نظام لوحة شفاء لإدارة المرضى ومتابعة السجلات الطبية والسريرية بسلاسة",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

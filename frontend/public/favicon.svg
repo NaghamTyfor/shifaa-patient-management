@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="stethoscopeBinaural" x1="0" y1="0" x2="100" y2="0">
+      <stop offset="0%" stopColor="#1e293b" />
+      <stop offset="50%" stopColor="#475569" />
+      <stop offset="100%" stopColor="#0f172a" />
+    </linearGradient>
+    <linearGradient id="glowingTeal" x1="0" y1="0" x2="0" y2="100">
+      <stop offset="0%" stopColor="#2dd4bf" />
+      <stop offset="100%" stopColor="#0d7a80" />
+    </linearGradient>
+  </defs>
+
+  <!-- Binaural / Earpieces -->
+  <path d="M 25,25 Q 35,15 45,25" stroke="url(#stethoscopeBinaural)" stroke-width="5" stroke-linecap="round" />
+  <circle cx="25" cy="25" r="4" fill="#1e293b" />
+  <circle cx="45" cy="25" r="4" fill="#1e293b" />
+
+  <!-- U-tube -->
+  <path d="M 25,25 V 40 C 25,55 45,55 45,40 V 25" stroke="url(#stethoscopeBinaural)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Flexible Tubing -->
+  <path d="M 35,48 C 35,68 15,65 15,80 C 15,95 40,95 50,85 C 60,75 62,60 70,60" stroke="url(#glowingTeal)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Sensor probe circular badge -->
+  <circle cx="70" cy="60" r="17" fill="#ffffff" stroke="#1e293b" stroke-width="4.5" />
+  <circle cx="70" cy="60" r="11.5" fill="#f0fdfa" />
+
+  <!-- Glowing pulse heart -->
+  <path d="M 70,66 C 68,66 63,61.5 63,57 C 63,54.5 65.5,52 68,52 C 69.5,52 70,53 70,53 C 70,53 70.5,52 72,52 C 74.5,52 77,54.5 77,57 C 77,61.5 72,66 70,66 Z" fill="url(#glowingTeal)" />
+</svg>
